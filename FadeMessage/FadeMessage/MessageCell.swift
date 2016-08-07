@@ -24,6 +24,7 @@ class MessageCell: UITableViewCell {
 extension MessageCell {
     private func setupUI() {
         backgroundColor = .clearColor()
+        selectionStyle = .None
         
         let label = UILabel()
         label.frame = CGRect(x: 10, y: 5, width: 300, height: 40)
