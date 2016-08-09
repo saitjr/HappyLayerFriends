@@ -19,7 +19,7 @@ class ViewController: UIViewController {
 
 extension ViewController {
     private func setupUI() {
-        view.backgroundColor = .blackColor()
+        view.backgroundColor = .brownColor()
         
         let orangeView = UIView()
         orangeView.frame = CGRect(x: 0, y: 0, width: 100, height: 60)
