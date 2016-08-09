@@ -34,8 +34,8 @@ extension ViewController {
         view.addSubview(imageView)
         
         UIView.animateWithDuration(3, delay: 0, options: [.Repeat, .Autoreverse],
-                                   animations: { 
-                                    orangeView.frame.origin.x = self.view.bounds.size.width - orangeView.bounds.size.width
+            animations: {
+                orangeView.frame.origin.x = self.view.bounds.size.width - orangeView.bounds.size.width
             }, completion: nil)
     }
 }
